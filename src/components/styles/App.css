@@ -1,0 +1,28 @@
+/* fons from google font  */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+}
+
+/* variable css  */
+:root {
+  /* Colors */
+  --primary-color: #e2136e;
+  --text-color: rgba(32, 32, 32, 0.55);
+  --body-color: #fff0f7;
+
+  /* Font sizes */
+  /* --heading-font-size: 24px; */
+  /* --subheading-font-size: 20px; */
+  /* --body-font-size: 16px; */
+}
+
+/* Global styles */
+body {
+  color: var(--text-color);
+  background: var(--body-color);
+}
