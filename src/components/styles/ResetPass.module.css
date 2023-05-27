@@ -1,0 +1,22 @@
+/* form all work is here  */
+.form_heading {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 45px;
+
+  color: #e2136e;
+  margin: 23px 0 0 0;
+}
+.form_width {
+  width: 100%;
+  margin: 0;
+}
+
+.form_width > div{
+    margin: 100px 0;
+}
+.btn_margin{
+    margin-bottom: 17px;
+}
