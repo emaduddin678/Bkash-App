@@ -44,6 +44,9 @@ function LandingPage() {
       <div className={classes.banner}>
         <img src={banner} alt="bkash-logo-bangla" />
       </div>
+      <div className={classes.tex_center}>
+        <p>কনসার্ট শুরু হতে বাকি</p>
+      </div>
       <div className={classes.countdown}>
         <div>
           {/* <p className={classes.single_clock}>00</p> */}
@@ -82,9 +85,14 @@ function LandingPage() {
         </Link>
         <h2>অথবা</h2>
         <Link to="/login">
-        <Button text={"লগ ইন"} />
+          <Button text={"লগ ইন"} />
         </Link>
       </div>
+      <footer>
+        <p>
+          Copyright &copy; 2023 <span>bKash Limited</span>. All Rights Reserved.
+        </p>
+      </footer>
     </>
   );
 }

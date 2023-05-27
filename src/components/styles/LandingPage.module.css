@@ -11,6 +11,18 @@
   width: 100%;
 }
 
+.tex_center {
+  text-align: center;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  margin-top: 20px;
+  color: #e2136e;
+}
+
 /* Countdown container */
 .countdown {
   display: flex;
@@ -88,6 +100,9 @@
   flex-direction: column;
   margin-bottom: 50px;
 }
+.both_button a {
+  width: 80%;
+}
 .both_button h2 {
   font-family: "Hind Siliguri";
   font-style: normal;
@@ -96,6 +111,20 @@
   line-height: 23px;
   letter-spacing: 0.01em;
   margin: 8px 0;
+}
+footer {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+
+  color: #202020;
+  text-align: center;
+}
+footer span {
+  color: #e2136e;
 }
 
 @media (max-width: 320px) {
@@ -106,5 +135,8 @@
   }
   .both_button {
     padding: 10px 40px;
+  }
+  .both_button a {
+    width: 90%;
   }
 }
