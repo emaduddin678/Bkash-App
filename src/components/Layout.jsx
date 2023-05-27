@@ -6,10 +6,7 @@ function Layout({ children }) {
   return (
     <div className={classes.container}>
       <div className={classes.logo_heading}>
-        <img
-          src={logo}
-          alt="bkash-logo-bangla"
-        />
+        <img src={logo} alt="bkash-logo-bangla" />
       </div>
       {children}
     </div>

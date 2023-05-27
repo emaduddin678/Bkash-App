@@ -1,0 +1,28 @@
+.form_group {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  
+  background: rgba(255, 247, 247, 0.15);
+  border-radius: 6px;
+}
+.input::placeholder,
+.input::placeholder {
+  text-align: center;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  padding: 20px;
+
+  color: rgba(47, 47, 47, 0.55);
+  
+}

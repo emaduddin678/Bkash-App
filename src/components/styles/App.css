@@ -23,6 +23,44 @@
 
 /* Global styles */
 body {
+  width: 100%;
   color: var(--text-color);
   background: var(--body-color);
+}
+
+
+.button {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0px 4px 4px -1px rgba(44, 44, 44, 0.25);
+  border-radius: 23px;
+  /* font style  */
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+@media (max-width: 320px) {
+  .otp_input {
+    max-width: 60px;
+    height: 100px;
+    font-size: 32px;
+  }
+  .both_button {
+    padding: 45px 60px;
+  }
 }
