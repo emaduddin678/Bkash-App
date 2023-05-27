@@ -13,6 +13,14 @@
   width: 100%;
 }
 
+
+.flex_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
 .forgotpass {
   font-family: "Hind Siliguri";
   font-style: normal;
@@ -23,13 +31,6 @@
 
   color: rgba(32, 32, 32, 0.55);
   align-self: self-start;
-  padding-top: 5px;
-}
-
-.flex_div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 h2 {
@@ -58,4 +59,15 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-bottom: 45px;
+}
+
+.gotosignup > a:hover{
+  color: #e2136e;
+  transition: all linear .2s;
+}
+
+@media screen and (max-width: 320px) {
+  .forgotpass{
+    font-size: 9px;
+  }
 }

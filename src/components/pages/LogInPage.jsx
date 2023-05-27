@@ -4,6 +4,7 @@ import classes from "../styles/LogInPage.module.css";
 import TextInput from "../TextInput";
 import Checkbox from "../Checkbox";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 function LogInPage() {
   const text = "লগ ইন";
@@ -33,15 +34,15 @@ function LogInPage() {
             name="password"
             text={"পাসওয়ার্ড মনে রাখুন"}
           />
-          <a className={classes.forgotpass} href="#">
-            পাসওয়ার্ড ভুলে গেছেন ?
-          </a>
+          <Link to="/resetpass">
+            <p className={classes.forgotpass}>পাসওয়ার্ড ভুলে গেছেন ?</p>
+          </Link>
         </div>
 
         <Button text={"লগ ইন"} className={classes.btn_margin} />
         <h2>অথবা</h2>
         <div className={classes.gotosignup}>
-          <a href="#">সাইন আপ</a>
+          <Link to="/signup"> সাইন আপ</Link>
         </div>
       </form>
     </FormLayout>

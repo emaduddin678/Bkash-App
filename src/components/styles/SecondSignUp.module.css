@@ -1,4 +1,3 @@
-
 /* form all work is here  */
 .form_heading {
   font-family: "Hind Siliguri";
@@ -6,18 +5,20 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 52px;
-  
+
   color: #e2136e;
-  margin: 23px 0 40px 0;
+  margin: 23px 0 0 0;
 }
-.form_width{
+.form_width {
   width: 100%;
+  margin: 0;
 }
 
-.left{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  margin-bottom: 30px;
+.form_width > div{
+    margin: 100px 0;
 }
+.btn_margin{
+    margin-top: 150px;
+    margin-bottom: 17px;
+}
+

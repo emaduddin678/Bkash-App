@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import classes from "../styles/LandingPage.module.css";
 import banner from "../../assets/images/website-banner-anuv-jain-414x334-Dark.png";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   const [days, setDays] = useState();
@@ -76,9 +77,13 @@ function LandingPage() {
       </div>
       <div className={classes.both_button}>
         {/* {console.log(classes.both_button)} */}
-        <Button text={"রেজিস্ট্রেশন"} />
+        <Link to="/signup">
+          <Button text={"রেজিস্ট্রেশন"} />
+        </Link>
         <h2>অথবা</h2>
+        <Link to="/login">
         <Button text={"লগ ইন"} />
+        </Link>
       </div>
     </>
   );

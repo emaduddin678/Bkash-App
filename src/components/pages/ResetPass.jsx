@@ -3,6 +3,7 @@ import FormLayout from "../MainFormLayout/FormLayout";
 import classes from "../styles/ResetPass.module.css";
 import TextInput from "../TextInput";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 function ResetPass() {
   const text = "পাসওয়ার্ড পুনরায় সেট করুন";
@@ -19,8 +20,12 @@ function ResetPass() {
         />
 
         <div>
-          <Button text={"কোড পাঠান"} className={classes.btn_margin} />
+          <Link to="/setreset">
+            <Button text={"কোড পাঠান"} className={classes.btn_margin} />
+          </Link>
+          <Link to="/login">
           <Button text={"ফেরত যান"} className={classes.btn_margin} />
+          </Link>
         </div>
       </form>
     </FormLayout>

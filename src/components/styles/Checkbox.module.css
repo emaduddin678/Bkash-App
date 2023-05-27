@@ -1,25 +1,13 @@
-.form_group {
-  margin-bottom: 30px;
+.form_group_checkbox {
+  margin-bottom: 10px;
 }
 
-.form-group input[type="checkbox"] {
+.form_group_checkbox input[type="checkbox"] {
   margin-right: 5px;
 }
 
-.form-group label {
-  font-family: "Hind Siliguri";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 19px;
-  letter-spacing: 0.01em;
-
-  color: rgba(32, 32, 32, 0.55);
-}
 
 .input {
-  background: red;
-  color: red;
   cursor: pointer;
 }
 
@@ -32,4 +20,10 @@ line-height: 19px;
 letter-spacing: 0.01em;
 
 color: rgba(32, 32, 32, 0.55);
+}
+
+@media screen and (max-width: 320px) {
+  .rempass{
+    font-size: 9px;
+  }
 }

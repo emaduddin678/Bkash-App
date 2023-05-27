@@ -27,15 +27,15 @@ function SignUp() {
           placeholder="পাসওয়ার্ড"
           required
         />
+        <div className={classes.left}>
+          <Checkbox
+            id="password"
+            name="password"
+            text={"পাসওয়ার্ড মনে রাখুন"}
+          />
 
-        <Checkbox
-          id="password"
-          name="password"
-          text={"পাসওয়ার্ড মনে রাখুন"}
-        />
-
-        <Checkbox id="condition" name="condition" text={"শর্তাবলী"} />
-
+          <Checkbox id="condition" name="condition" text={"শর্তাবলী"} />
+        </div>
         <Button
           text={"সাইন আপ"}
           className={classes.btn_margin}
