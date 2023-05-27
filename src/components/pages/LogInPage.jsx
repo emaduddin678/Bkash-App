@@ -33,7 +33,7 @@ function LogInPage() {
             id="passwordlogin"
             name="password"
             text={"পাসওয়ার্ড মনে রাখুন"}
-          />
+            />
           <Link to="/resetpass">
             <p className={classes.forgotpass}>পাসওয়ার্ড ভুলে গেছেন ?</p>
           </Link>

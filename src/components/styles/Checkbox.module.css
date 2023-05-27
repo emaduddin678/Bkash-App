@@ -1,14 +1,16 @@
-.form_group_checkbox {
+.form_control {
   margin-bottom: 10px;
+  font-size: 9px;
 }
 
-.form_group_checkbox input[type="checkbox"] {
+.form_control input[type="checkbox"] {
   margin-right: 5px;
 }
 
 
-.input {
+input[type="checkbox"] {
   cursor: pointer;
+
 }
 
 .rempass{
