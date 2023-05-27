@@ -1,0 +1,61 @@
+/* form all work is here  */
+.form_heading {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+
+  color: #e2136e;
+  margin: 23px 0 40px 0;
+}
+.form_width {
+  width: 100%;
+}
+
+.forgotpass {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+
+  color: rgba(32, 32, 32, 0.55);
+  align-self: self-start;
+  padding-top: 5px;
+}
+
+.flex_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+
+  color: rgba(32, 32, 32, 0.55);
+  text-align: center;
+  margin-top: 5px;
+}
+
+.gotosignup > a{
+  font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 29px;
+letter-spacing: 0.01em;
+
+color: rgba(32, 32, 32, 0.55);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 45px;
+}

@@ -9,7 +9,7 @@ function Checkbox({ className, text, ...rest }) {
         className={classes.input}
         {...rest}
       />
-      <label> {text}</label>
+      <label className={classes.rempass}> {text}</label>
     </div>
   );
 }
