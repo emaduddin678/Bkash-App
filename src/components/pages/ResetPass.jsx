@@ -2,7 +2,6 @@ import React from "react";
 import FormLayout from "../MainFormLayout/FormLayout";
 import classes from "../styles/ResetPass.module.css";
 import TextInput from "../TextInput";
-import Checkbox from "../Checkbox";
 import Button from "../Button";
 
 function ResetPass() {
