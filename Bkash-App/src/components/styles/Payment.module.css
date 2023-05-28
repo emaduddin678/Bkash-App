@@ -1,0 +1,21 @@
+.form_heading {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+    padding: 150px 0;
+  color: #e2136e;
+}
+
+.btn_margin{
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width: 380px) {
+    .form_heading{
+        font-size: 28px;
+    }
+}

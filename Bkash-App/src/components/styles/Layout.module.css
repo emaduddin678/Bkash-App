@@ -1,0 +1,19 @@
+/* Container */
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* main css  */
+
+/* css for logo heading  */
+.logo_heading {
+  width: 100%;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+
+.logo_heading > img {
+  padding: 5px 0;
+}

@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid limegreen; */
+}
+/* banner css start */
+.banner {
+  width: 100%;
+}
+
+.banner > img {
+  width: 100%;
+}
+
+/* Countdown container */
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 25px;
+  position: relative;
+}
+/* "border-gray-500 z-[999]  bg-blue-200 py-3 pl-4 pr-8 rounded-xl border-4 mx-auto grid justify-center  grid-cols-7 w-full  md:w-7/12 " */
+.countdown > div {
+  margin: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.countdown .single_clock {
+  background: linear-gradient(
+    157.43deg,
+    rgba(255, 255, 255, 0.4) 3.24%,
+    rgba(255, 255, 255, 0.1) 98.67%
+  );
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+  width: 70px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #e2136e;
+  outline: 1px solid rgb(214, 214, 214);
+}
+
+.shadow {
+  position: absolute;
+  width: 50%;
+  height: 40px;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #c6c6c6 0%,
+    rgba(245, 245, 245, 0) 95.83%
+  );
+  opacity: 0.6;
+  bottom: -30px;
+  z-index: 1;
+}
+
+.clock_label {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+
+  color: rgba(226, 19, 110, 0.9);
+}
+
+/* button css start  */
+.both_button {
+  display: flex;
+  width: 100%;
+  padding: 30px 55px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.both_button h2 {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  margin: 8px 0;
+}
+.dark_bottom{
+  width: 100%;
+  height: 10px ;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+@media (max-width: 320px) {
+  .countdown .single_clock {
+    width: 100%;
+    width: 60px;
+    height: 100px;
+  }
+  .both_button {
+    padding: 10px 40px;
+  }
+}
