@@ -16,16 +16,16 @@ function App() {
     <>
       <Router>
         <Layout>
-        <Payment />
-          {/* <Routes>
+          <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/login" element={<LogInPage />} />
+            <Route path="/payment" element={<Payment />} />
             <Route path="/resetpass" element={<ResetPass />} />
             <Route path="/setreset" element={<SetReset />} />
             <Route path="/secondlanding" element={<SecondLanding />} />
             <Route path="/signupcode" element={<SecondSignUp />} />
-          </Routes> */}
+          </Routes>
         </Layout>
       </Router>
     </>

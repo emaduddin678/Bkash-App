@@ -10,13 +10,25 @@
 .banner > img {
   width: 100%;
 }
+.tex_center {
+  text-align: center;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  margin-top: 20px;
+  color: #e2136e;
+  padding: 0 50px;
+}
 
 /* Countdown container */
 .countdown {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 120px 25px;
+  margin: 50px 25px 120px;
   position: relative;
 }
 /* "border-gray-500 z-[999]  bg-blue-200 py-3 pl-4 pr-8 rounded-xl border-4 mx-auto grid justify-center  grid-cols-7 w-full  md:w-7/12 " */
@@ -63,7 +75,7 @@
     rgba(245, 245, 245, 0) 95.83%
   );
   opacity: 0.6;
-  bottom: -30px;
+  bottom: -10px;
   z-index: 1;
 }
 
